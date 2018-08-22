@@ -14,6 +14,8 @@
 
 " vim-gitgutter
 
+" vim-fugitive
+
 execute pathogen#infect()
 
 syntax on
@@ -36,6 +38,7 @@ Plug 'scrooloose/nerdtree'
 
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " Set colorscheme

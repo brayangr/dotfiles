@@ -63,6 +63,9 @@ set updatetime=100
 
 set number
 
+" Show relative line numbers
+
+set relativenumber
 
 
 " set right column at 80

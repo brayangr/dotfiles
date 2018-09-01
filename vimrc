@@ -70,7 +70,7 @@ set relativenumber
 
 " set right column at 80
 
-set cc=80
+set cc=120
 
 " Auto start nerdtree
 " autocmd VimEnter * NERDTree

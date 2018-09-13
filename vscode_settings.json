@@ -1,0 +1,20 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.zoomLevel": 0,
+    "terminal.integrated.rendererType": "dom",
+    "todo-tree.defaultHighlight": {
+        "foreground": "green",
+        "type": "none"
+    },
+
+    "ruby.rubocop.executePath": "/home/brayan/.rvm/gems/ruby-2.4.1/wrappers/",
+    "ruby.rubocop.onSave": true,
+
+    "todo-tree.customHighlight": {
+        "TODO": {},
+        "FIXME": {}
+    },
+    "editor.rulers": [80],
+} 

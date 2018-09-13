@@ -8,3 +8,4 @@ ln -sf $HOME/.dotfiles/vscode_settings.json $HOME/.config/Code/User/settings.jso
 
 # Create a symlink to zshrc
 ln -sf $HOME/.dotfiles/zshrc $HOME/.zshrc
+

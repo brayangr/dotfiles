@@ -16,5 +16,16 @@
         "TODO": {},
         "FIXME": {}
     },
-    "editor.rulers": [80],
+    "editor.rulers": [
+        80
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Ayu Mirage",
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "solargraph.commandPath": "/home/brayan/.rvm/gems/ruby-2.4.2/wrappers/solargraph",
+    
+    "jshint.options": {
+        "esversion": 6
+    }
 } 

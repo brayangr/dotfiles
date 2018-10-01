@@ -284,6 +284,7 @@ exec --no-startup-id pamac-tray
 # exec_always --no-startup-id sbxkb
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+exec_always --no-startup-id redshift -O 4000
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -336,3 +337,4 @@ bindsym $mod+m bar mode toggle
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
   client.background       #2B2C2B
+

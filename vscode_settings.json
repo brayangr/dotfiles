@@ -20,7 +20,7 @@
         80
     ],
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.colorTheme": "Quiet Light",
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
     "solargraph.commandPath": "/home/brayan/.rvm/gems/ruby-2.4.2/wrappers/solargraph",

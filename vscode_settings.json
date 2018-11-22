@@ -27,5 +27,8 @@
     
     "jshint.options": {
         "esversion": 6
-    }
+    },
+    "breadcrumbs.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "window.titleBarStyle": "custom"
 } 

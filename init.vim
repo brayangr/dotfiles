@@ -36,6 +36,9 @@ Plug 'junegunn/fzf.vim'
 
 " File explorer
 Plug 'scrooloose/nerdtree'
+
+" Intelisense engine
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 nnoremap <silent> <leader>b :ToggleBlameLine<CR>

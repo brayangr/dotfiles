@@ -205,8 +205,5 @@ bindsym $mod+shift+plus gaps inner all plus 5
 
 # notify daemon
 exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd
-# restore background
-exec --no-startup-id nitrogen -- restore
-# compositor
-exec --no-startup-id xcompmgr
+exec $HOME/.config/i3/startup.sh
 exec --no-startup-id polybar example -r

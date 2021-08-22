@@ -204,6 +204,6 @@ bindsym $mod+shift+plus gaps inner all plus 5
 
 
 # notify daemon
-exec --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd
+exec --no-startup-id dusnt
 exec $HOME/.config/i3/startup.sh
 exec --no-startup-id polybar example -r

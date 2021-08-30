@@ -187,7 +187,7 @@ for_window [class="Spotify"] move to workspace $ws4
 for_window [class="discord"] move to workspace $ws4
 
 # Gaps config
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 3
 
 # Needed to not overlap with polybar
 gaps top 33
@@ -198,7 +198,7 @@ gaps inner 20
 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
+# smart_borders on
 
 # modify gaps size
 bindsym $mod+shift+minus gaps inner all minus 5
@@ -213,3 +213,6 @@ exec --no-startup-id polybar example -r
 
 bindsym XF86MonBrightnessUp exec light -A 0.5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 0.5 # decrease screen brightness
+
+# set some nice colors      border     background  text
+client.focused              #2EB5E0     #2EB5E0   #2EB5E0        

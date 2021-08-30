@@ -28,9 +28,9 @@ alert = #bd2c40
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 70%
+width = 48.5%
 height = 22
-offset-x = 15%
+offset-x = 1%
 offset-y = 5
 ;radius = 6.0
 fixed-center = false
@@ -57,6 +57,56 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = i3 bspwm
 modules-center = xwindow mpd
+;modules-right = filesystem pulseaudio xkeyboard memory cpu battery-0 battery-1 eth temperature date
+
+;tray-position = right
+;tray-padding = 2
+;tray-background = #0063ff
+
+wm-restack = i3
+
+override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+[bar/right]
+;monitor = ${env:MONITOR:HDMI-1}
+width = 48.55%
+height = 22
+offset-x = 50.45%
+offset-y = 5
+;radius = 6.0
+fixed-center = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+border-size = 3
+border-color = ${colors.primary}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = fixed:pixelsize=10;1
+font-3 = FontAwesome:size=10;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
+
+modules-left =
+modules-center = 
 modules-right = filesystem pulseaudio xkeyboard memory cpu battery-0 battery-1 eth temperature date
 
 tray-position = right

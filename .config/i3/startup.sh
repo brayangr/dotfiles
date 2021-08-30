@@ -1,6 +1,5 @@
-#! /bin/sh
+#!/bin/sh
 
-xrandr --output DP-2 --mode 1920x1080
-xrandr --output HDMI-0 --off
+redshift -O 5500 &
 nitrogen --restore &
 xcompmgr &

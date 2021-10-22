@@ -18,30 +18,30 @@
 
 [colors]
 ;background = ${xrdb:color0}
-background = #FFFFFF
-background-alt = #C4DBE0
-foreground = #0C6980
+background = #383534
+background-alt = #424242
+foreground = #FFFFFF
 foreground-alt = #555
-primary = #2EB5E0
-secondary = #C4DBE0
+primary = #646160
+secondary = #C4DBE
 alert = #bd2c40
 
 [bar/example]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 70%
+width = 100%
 height = 22
-offset-x = 15%
-offset-y = 5
+offset-x = 0
+offset-y = 0
 ;radius = 6.0
 fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 2
+line-size = 1
 line-color = #f00
 
-border-size = 3
+border-size = 0
 border-color = ${colors.primary}
 
 padding-left = 0
@@ -271,7 +271,7 @@ type = internal/network
 interface = enp9s0
 interval = 3.0
 
-format-connected-underline = #55aa55
+format-connected-underline = ${colors.primary}
 format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%

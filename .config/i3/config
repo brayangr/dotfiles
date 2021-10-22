@@ -42,7 +42,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec gnome-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -187,11 +187,11 @@ for_window [class="Spotify"] move to workspace $ws4
 for_window [class="discord"] move to workspace $ws4
 
 # Gaps config
-for_window [class=".*"] border pixel 3
+for_window [class=".*"] border pixel 0
 
 # Needed to not overlap with polybar
-gaps top 33
-gaps inner 20
+gaps top 22
+gaps inner 10
 
 # Smart gaps (gaps used if only more than one container on the workspace)
 # smart_gaps on
@@ -219,4 +219,10 @@ bindsym XF86MonBrightnessUp exec light -A 0.5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 0.5 # decrease screen brightness
 
 # set some nice colors      border     background  text
-client.focused              #2EB5E0     #2EB5E0   #2EB5E0        
+client.focused              #FF5004     #FF5004   #FF5004        
+
+
+# Multimedia keys
+bindsym XF86AudioPause exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
